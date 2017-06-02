@@ -1,0 +1,17 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.3.RELEASE'
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("com.giffing.wicket.spring.boot.starter:wicket-spring-boot-starter:1.0.8")
+    compile("org.apache.commons:commons-lang3:3.5")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
